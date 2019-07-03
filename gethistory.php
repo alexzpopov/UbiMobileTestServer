@@ -1,10 +1,6 @@
 <?php
-    // Configuration
-    $hostname = 'localhost';
-    $username = 'root';
-    $password = 'eFexM3RD76Ko';
-    $database = 'ubisoft_racing_test';
- 
+    require_once 'config.php';
+
     try {
         $dbh = new PDO('mysql:host='. $hostname .';dbname='. $database, $username, $password);
     } catch(PDOException $e) {

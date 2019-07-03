@@ -1,9 +1,5 @@
 <?php
-    // Configuration
-    $hostname = 'localhost';
-    $username = 'root';
-    $password = 'eFexM3RD76Ko';
-    $database = 'ubisoft_racing_test';
+    require_once 'config.php';
 
     $secretKey = "mySecretKey"; // Change this value to match the value stored in the client javascript below 
 
